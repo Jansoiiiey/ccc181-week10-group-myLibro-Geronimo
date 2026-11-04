@@ -125,10 +125,13 @@
 
 
 
-/* ---- 3. 1024px and up (laptops) --------------------------------------
-   TODO @media (min-width: 1024px)
-        .footer-grid          THREE equal columns: repeat(3, 1fr); gap 2rem
-   -------------------------------------------------------------------- */
+/* ---- 3. 1024px and up (laptops) ---- */
+@media (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
 
 
 

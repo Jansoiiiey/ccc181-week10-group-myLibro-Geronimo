@@ -55,6 +55,8 @@
   font-weight: 700;
   font-size: 0.875rem;
   border-radius: 999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .brand-panel__title {

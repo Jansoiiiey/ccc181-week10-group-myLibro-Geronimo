@@ -33,7 +33,7 @@ npm run build        # must finish with no errors before you submit
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
 | 2 | | | `nav.css` | |
-| 3 | | | `form.css` | |
+| 3 | Nicanor Gabriel S. Damalerio | nicanorgabrieldamalerio-debug | `form.css` | I edited `src/styles/form.css`, using Flexbox to style the login card, fields, and buttons. On phones, the card is full width with a single column, 48px inputs, and full-width buttons with `:hover` and `:focus-visible` styles. At 768px and up, the card is centered with a `32rem` max width and the alternative buttons sit side by side. At 1024px and up, padding and title size increase, and 1280px needs no new rules because `.container` (Member 1) handles centering. |
 
 ## Experiment 0: the page without the viewport tag
 
@@ -55,7 +55,7 @@ What changed **after** adding it?
 
 Using **Show media queries** and dragging slowly from 360 px to 1280 px, the layout changed at these exact widths:
 
-> (write the widths here, and say whether any width looked broken)
+> Using Show media queries and dragging slowly from 360px to 1280px, the layout changed at exactly 768px and 1024px. At 768px, the card centered at a 32rem max width, the checkbox and link split left and right, and the two alternative buttons sat side by side. At 1024px, the card padding and title size increased. Nothing changed at 1280px. No width looked broken.
 
 Screenshots are in `screenshots/` as `360.png`, `768.png`, `1024.png`, `1280.png`.
 

@@ -50,10 +50,10 @@ The page now uses the real device width (width=device-width) at 100% scale (init
 
 | Width | What must be true | Pass? |
 | --- | --- | --- |
-| 360 px | 1 column. Nav links stacked and 48px tall. Options and buttons stacked. Footer in 1 column. No sideways scrollbar. |x|
-| 768 px | Nav in one row (brand left, links right). Checkbox and link in one row. Two buttons side by side. |x|
-| 1024 px | Brand panel and login card side by side. Footer in 3 columns. Heading is larger. |x|
-| 1280 px | Content centered and stops at 1200px. |x|
+| 360 px | 1 column. Nav links stacked and 48px tall. Options and buttons stacked. Footer in 1 column. No sideways scrollbar. | Passed |
+| 768 px | Nav in one row (brand left, links right). Checkbox and link in one row. Two buttons side by side. | Passed |
+| 1024 px | Brand panel and login card side by side. Footer in 3 columns. Heading is larger. | Passed |
+| 1280 px | Content centered and stops at 1200px. | Passed |
 
 ### Breakpoints I observed
 

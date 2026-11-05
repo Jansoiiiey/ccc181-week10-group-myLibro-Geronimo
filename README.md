@@ -32,7 +32,7 @@ npm run build        # must finish with no errors before you submit
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
-| 2 | | | `nav.css` | |
+| 2 | Jonathan S. Geronimo Jr. | Jansoiiiey | `nav.css` | I edited src/styles/nav.css. On phones, the navbar uses Flexbox in a column with the brand on top and links stacked, all at least 48px tall with :hover and :focus-visible styles (--navy-hover and a gold outline), while the footer uses CSS Grid in one column with gold titles and 48px links. At 768px and up, the navbar becomes a row with the brand on the left and links on the right, and .nav-list lines up in one row. At 1024px and up, .footer-grid becomes three equal columns. Nothing changes at 1280px since .container (Member 1) handles centering. |
 | 3 | | | `form.css` | |
 
 ## Experiment 0: the page without the viewport tag
@@ -55,7 +55,7 @@ What changed **after** adding it?
 
 Using **Show media queries** and dragging slowly from 360 px to 1280 px, the layout changed at these exact widths:
 
-> (write the widths here, and say whether any width looked broken)
+> Using Show media queries and dragging slowly from 360px to 1280px, the layout changed at exactly 768px and 1024px. At 768px, the navbar switched from a column to a row, with the brand on the left and the links in a single row on the right. At 1024px, the footer grid changed from one column to three equal columns. Nothing changed at 1280px. No width looked broken.
 
 Screenshots are in `screenshots/` as `360.png`, `768.png`, `1024.png`, `1280.png`.
 
